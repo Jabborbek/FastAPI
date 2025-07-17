@@ -1,0 +1,48 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtualenv
+venv/
+ENV/
+env/
+.venv/
+
+# VSCode
+.vscode/
+
+# Mac/Linux/Windows tizim fayllari
+.DS_Store
+Thumbs.db
+
+# Pytest va coverage
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
+*.cover
+*.log
+
+# MyPy va boshqa static checklar
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# IDElar uchun
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Database fayllari (agar SQLite ishlatilsa)
+*.db
+*.sqlite3
+
+# Logs
+*.log
+
+# Docker
+*.pid
+*.tar
+*.img
+*.bak
